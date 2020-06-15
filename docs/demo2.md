@@ -1,6 +1,6 @@
 ---
-title: 介绍
-order: 10
+title: 介绍2
+order: 9
 ---
 
 
@@ -71,4 +71,4 @@ yarn add @ant-design/pro-table
 
 ## Demo
 
-<code src="./demo/index.tsx" />
+<code src="./demo/demo2.tsx" />

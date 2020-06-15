@@ -1,5 +1,11 @@
 export default {
-    entry: 'src/index.tsx',
+    // entry: ['components/index.tsx'],
+    overridesByEntry: {
+      'index.tsx': {
+        file: 'index1',
+      },
+     
+    },
     esm: {
       type: 'babel',
       importLibToEs: true,
