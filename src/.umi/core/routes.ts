@@ -4,13 +4,13 @@ import { plugin } from './plugin';
 
 const routes = [
   {
-    "path": "/_demos/index",
-    "component": require('../../../docs/demo/index.tsx').default,
+    "path": "/_demos/demo2",
+    "component": require('../../../docs/demo/demo2.tsx').default,
     "exact": true
   },
   {
-    "path": "/_demos/demo2",
-    "component": require('../../../docs/demo/demo2.tsx').default,
+    "path": "/_demos/index",
+    "component": require('../../../docs/demo/index.tsx').default,
     "exact": true
   },
   {
@@ -26,7 +26,7 @@ const routes = [
         "exact": true,
         "meta": {
           "filePath": "docs/demo2.md",
-          "updatedTime": 1592116544299,
+          "updatedTime": 1592184609000,
           "title": "介绍2",
           "order": 9,
           "slugs": [
@@ -54,7 +54,7 @@ const routes = [
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1591935142000,
+          "updatedTime": 1592184609000,
           "title": "介绍",
           "order": 10,
           "slugs": [
@@ -78,7 +78,7 @@ const routes = [
         "exact": true,
         "meta": {
           "filePath": "docs/kytable.md",
-          "updatedTime": 1591942561525,
+          "updatedTime": 1592184609000,
           "title": "KYTable",
           "order": 8,
           "slugs": [
